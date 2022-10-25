@@ -1,0 +1,122 @@
+.todo__overall {
+  background: rgba(0, 0, 0, 0.151);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo__overall .div__all {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.651);
+  min-width: 450px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 10px 10px 13px rgba(255, 255, 255, 0.4666666667), -10px -10px 13px rgba(0, 0, 0, 0.1333333333);
+  -webkit-border-start: 4px solid;
+          border-inline-start: 4px solid;
+  -webkit-border-before: 4px solid;
+          border-block-start: 4px solid;
+  border-image-source: radial-gradient(circle at top left, limegreen, transparent 50%);
+  border-image-slice: 1;
+  padding: 10px;
+}
+.todo__overall .div__all .todohead {
+  width: 150px;
+  color: #eaeaea;
+  margin-top: 30px;
+}
+.todo__overall .div__all .todohead .div__user {
+  position: absolute;
+  top: 2%;
+  left: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}
+.todo__overall .div__all .todohead .div__user p {
+  font-size: 2rem;
+}
+.todo__overall .div__all .todohead .div__user h1 {
+  font-size: 2.2rem;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.todo__overall .div__all .todohead .div__user img {
+  width: 3em;
+}
+.todo__overall .div__all .todoinput .todo__input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  padding: 20px;
+}
+.todo__overall .div__all .todoinput .todo__input input {
+  border: none;
+  border-radius: 50px;
+  width: 350px;
+  height: 60px;
+  padding: 20px;
+  color: #eaeaea;
+  text-transform: capitalize;
+  box-shadow: inset -5px -5px 5px rgba(255, 255, 255, 0.4666666667), inset 5px 5px 5px rgba(0, 0, 0, 0.1333333333);
+}
+.todo__overall .div__all .todoinput .todo__input button {
+  width: 100px;
+  height: 60px;
+  margin-top: 0px;
+  border: none;
+  margin-left: 0px;
+  text-transform: capitalize;
+  box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.4666666667), 5px 5px 5px rgba(0, 0, 0, 0.1333333333);
+}
+.todo__overall .div__all .todolist .todo__list {
+  width: 700px;
+  height: 450px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.todo__overall .div__all .todolist .todo__list::-webkit-scrollbar {
+  -webkit-appearance: none;
+  appearance: none;
+}
+.todo__overall .div__all .todolist .todo__list .lis {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.todo__overall .div__all .todolist .todo__list .lis .list {
+  border: none;
+  border-radius: 15px;
+  width: 300px;
+  height: 40px;
+  padding: 20px;
+  color: #eaeaea;
+  text-transform: capitalize;
+  box-shadow: inset -5px -5px 5px rgba(255, 255, 255, 0.4666666667), inset 5px 5px 5px rgba(0, 0, 0, 0.1333333333);
+}
+.todo__overall .div__all .todolist .todo__list .lis .complete {
+  text-decoration: line-through;
+}
+.todo__overall .div__all .todolist .todo__list .lis button {
+  width: 90px;
+  font-size: 1rem;
+  height: 40px;
+  padding: auto;
+  margin-top: 0px;
+  margin-left: 0px;
+  text-transform: capitalize;
+  border: none;
+  box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.4666666667), 5px 5px 5px rgba(0, 0, 0, 0.1333333333);
+}/*# sourceMappingURL=todo.css.map */
